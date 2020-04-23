@@ -1,0 +1,3 @@
+temporaily change clock divider thing clock50 for testing in modelsim
+because if you leave it as clokc divider it has to tick a bunch before things happen,
+which can be annoying

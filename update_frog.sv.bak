@@ -1,0 +1,7 @@
+module update_frog (clk, reset, player_input, out);
+	input  logic clk, reset;
+	input  logic [3:0] player_input;
+	output logic [1:0] out;
+	       logic [1:0] frog_coords;
+	
+endmodule

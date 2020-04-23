@@ -1,0 +1,13 @@
+module filpflop (clk, reset, D, Q);
+	input logic clk, reset, D;
+	output logic Q;
+
+	initial Q <= D;
+
+	always_ff @(posedge clk) begin
+		if (reset)
+			Q <= 0;
+		else
+			Q <= D;
+	
+endmodule

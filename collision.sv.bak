@@ -1,0 +1,11 @@
+module collision (clk, reset);
+
+
+/*
+	need to figure out how this is going to work, what inputs it's going to take in
+	- take in car2-12 as well as frog_x and frog_y
+		- NOTE: need to figure out whether the x and y coord stuff is lining up as expected (pretty sure it is)
+		- coords are rotated pretty sure. I think the rightmost column -> x = 0
+	- easiest method: just take in GreenPixels and RedPixels
+
+*/ 

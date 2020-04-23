@@ -1,0 +1,29 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runupdatecar.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:47 on Dec 03,2019
+# vlog -reportprogress 300 ./update_cars.sv 
+# -- Compiling module update_cars
+# -- Compiling module update_cars_testbench
+# 
+# Top level modules:
+# 	update_cars_testbench
+# End time: 12:59:48 on Dec 03,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work update_cars_testbench 
+# Start time: 12:59:50 on Dec 03,2019
+# Loading sv_std.std
+# Loading work.update_cars_testbench
+# Loading work.update_cars
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: polint  Hostname: EE-361PC08  ProcessID: 11688
+#           Attempting to use alternate WLF file "./wlft23t0z1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft23t0z1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./update_cars.sv(123)
+#    Time: 2550 ps  Iteration: 1  Instance: /update_cars_testbench
+# Break in Module update_cars_testbench at ./update_cars.sv line 123

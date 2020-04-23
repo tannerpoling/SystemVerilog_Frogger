@@ -1,0 +1,8 @@
+module draw_game (clk, reset, frog_coords, cars);
+
+	/*
+		this will take in the car stuff and frog stuff from other modules
+		and translate it to the arrays to be sent to the LED board driver
+	*/
+
+endmodule

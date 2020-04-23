@@ -1,0 +1,12 @@
+module update_cars (clk, reset, cars);
+	
+
+	/* 
+	
+		need to figure out how many cars we want to use / how to use them
+		thinking a 2D array of car lengths and the location of leftmost dot
+		this will be sent to some other module,
+		each car length will be drawn with one row between them
+	
+	*/
+endmodule

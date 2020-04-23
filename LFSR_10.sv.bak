@@ -1,0 +1,5 @@
+module LFSR_10(clk, reset, in, out);
+
+	
+
+endmodule

@@ -1,0 +1,19 @@
+module button_press (clk, reset, in, out);
+	
+	// Takes in a "button press", where 1 will only be output once
+	// despite the actual input being on for many cycles
+	
+	input	 logic clk, reset, in;
+	output logic out;
+	
+	enum { NONE, WAITOFF } ps, ns;
+	
+	// NS logic + output
+	always_comb begin
+		case (ps)
+		
+			NONE: begin
+						if (in)	ns = WAITOFF; 	out = 1'b1;
+						else		ns = NONE;		out = 1'b0;
+					end
+	
